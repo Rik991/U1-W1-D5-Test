@@ -7,6 +7,7 @@ body {
   color: #393d41;
   font-size: 1.2rem;
   line-height: 1.65;
+  text-align: center;
 }
 
 h3 {
@@ -20,7 +21,6 @@ h3 {
 header {
   background-color: black;
   padding: 2rem;
-  text-align: center;
 }
 
 img {
@@ -33,7 +33,6 @@ section {
   background-image: url(../images/banner.jpg);
   background-size: 150%;
   background-position: center;
-  text-align: center;
 }
 
 h1 {
@@ -63,7 +62,6 @@ section p {
 article {
   padding-block: 3rem;
   padding-inline: 1rem;
-  text-align: center;
 }
 
 article img {
@@ -73,10 +71,11 @@ article img {
   border-radius: 50%;
 }
 /* IMPOSTO LA SEZIONE "ARTICLE" E RENDO LA FOTO TONDA E DI DIMENSIONI RICHIESTE */
-div {
+
+.orangeBlock {
   padding: 2rem 0.85rem 1rem 0.85rem;
-  text-align: center;
-  background-color: #df2d12;
+
+  background-color: #e22d0e;
   color: white;
 }
 
@@ -84,13 +83,42 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.7rem;
   padding-block: 1.5rem;
+  color: white;
 }
 .italic {
   font-style: italic;
   font-size: 0.8rem;
   padding-bottom: 1.5rem;
+  padding-inline: 0.8rem;
 }
 
 .little {
   font-size: 0.8rem;
+}
+/* LA SEZIONE SOVRASTANTE FA RIFERIMENTO AL BLOCCO ARANCIONE NELLA PAGINA, IN PIU' TROVIAMO CLASSI PER CARATTERI RIUTILIZZABILI */
+
+aside {
+  padding-block: 2rem;
+  padding-inline: 1rem;
+}
+
+aside div {
+  border: #dee1e3 solid 1px;
+  border-radius: 5px;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+aside div img {
+  width: 100%;
+}
+
+aside p {
+  padding-inline: 1.5rem;
+}
+/* QUI ABBIAMO DEFINITO LO STILE DELLE CARD E DEI PROPRI CONTENUTI */
+
+footer {
+  padding: 1rem;
+  background-color: #25a2c3;
 }
