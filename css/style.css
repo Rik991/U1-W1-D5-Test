@@ -122,3 +122,24 @@ footer {
   padding: 1rem;
   background-color: #25a2c3;
 }
+
+li,
+footer a {
+  list-style: none;
+  color: white;
+  opacity: 0.9;
+}
+
+footer hr {
+  color: white;
+  margin-block: 2rem;
+  margin-inline: 5rem;
+  opacity: 0.9;
+}
+
+footer p {
+  color: white;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  padding-bottom: 2.5rem;
+}
