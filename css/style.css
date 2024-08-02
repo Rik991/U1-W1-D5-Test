@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap");
+/* IMPORTO I FONT NECESSARI */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+
+.fontBlue,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+  line-height: 1.5;
+}
+/* APPLICO I FONT AI RISPETTIVI CONTESTI */
+
+header {
+  background-color: black;
+  padding: 2rem;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+}
+/* STILI HEADER (E LOGO)  */
+
+section {
+  padding: 2rem;
+  background-image: url(../images/banner.jpg);
+  background-size: 150%;
+  background-position: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+  line-height: 1;
+}
+
+section button {
+  color: white;
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 19px;
+  padding-inline: 2.5rem;
+  padding-block: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+section p {
+  padding-block: 1.5rem;
+}
+/* STILIZZO LA NOSTRA SECTION E I SUOI CONTENUTI */
