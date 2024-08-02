@@ -9,11 +9,11 @@ body {
   line-height: 1.65;
 }
 
-.fontBlue,
 h3 {
   font-family: "Montserrat", sans-serif;
   color: #25a2c3;
   line-height: 1.5;
+  padding-block: 1rem;
 }
 /* APPLICO I FONT AI RISPETTIVI CONTESTI */
 
@@ -59,3 +59,38 @@ section p {
   padding-block: 1.5rem;
 }
 /* STILIZZO LA NOSTRA SECTION E I SUOI CONTENUTI */
+
+article {
+  padding-block: 3rem;
+  padding-inline: 1rem;
+  text-align: center;
+}
+
+article img {
+  padding-block: 1rem;
+  width: 85%;
+  height: 85%;
+  border-radius: 50%;
+}
+/* IMPOSTO LA SEZIONE "ARTICLE" E RENDO LA FOTO TONDA E DI DIMENSIONI RICHIESTE */
+div {
+  padding: 2rem 0.85rem 1rem 0.85rem;
+  text-align: center;
+  background-color: #df2d12;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+  padding-block: 1.5rem;
+}
+.italic {
+  font-style: italic;
+  font-size: 0.8rem;
+  padding-bottom: 1.5rem;
+}
+
+.little {
+  font-size: 0.8rem;
+}
