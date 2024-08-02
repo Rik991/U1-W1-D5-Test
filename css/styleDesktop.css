@@ -16,16 +16,14 @@ h3 {
   padding-block: 1rem;
 }
 /* APPLICO I FONT AI RISPETTIVI CONTESTI */
-main,
-footer {
-}
+
 header {
   background-color: black;
   padding: 1rem;
 }
 
 header img {
-  width: 20%;
+  width: 10%;
 }
 /* STILI HEADER (E LOGO)  */
 
@@ -63,14 +61,26 @@ section p {
 
 article {
   width: 100%;
-  box-sizing: border-box;
-  display: inline-block;
+  padding-inline: 10rem;
+  padding-block: 4rem;
 }
 
 article img {
   border-radius: 50%;
 }
 
+.box4,
+.box5 {
+  display: inline-block;
+  vertical-align: -webkit-baseline-middle;
+  width: 40%;
+  padding: 5rem;
+}
+
+.box4 {
+  width: 30%;
+}
+/* I DUE BLOCCHI NELL'ARTICLE */
 /*IMPOSTO LA SEZIONE "ARTICLE" E RENDO LA FOTO TONDA E DI DIMENSIONI RICHIESTE */
 
 .orangeBlock {
@@ -78,6 +88,7 @@ article img {
   padding: 2rem 0.85rem 1rem 0.85rem;
   background-color: #e22d0e;
   color: white;
+  margin-bottom: 2rem;
 }
 
 h2 {
@@ -108,17 +119,11 @@ aside {
 .box2,
 .box3 {
   display: inline-block;
-  width: 30%;
-  padding: 1rem;
+  vertical-align: middle;
+  width: 31%;
   margin: 10px;
 }
-
-.box4,
-.box5 {
-  display: inline-block;
-  width: 40%;
-  padding: 5rem;
-}
+/* I 3 BLOCCHI NELL'ASIDE */
 
 aside div {
   border: #dee1e3 solid 1px;
@@ -130,11 +135,13 @@ aside div img {
 }
 
 aside p {
-  padding-inline: 1.5rem;
+  padding-inline: 3rem;
+  padding-bottom: 1rem;
 }
 /* QUI ABBIAMO DEFINITO LO STILE DELLE CARD E DEI PROPRI CONTENUTI */
 
 footer {
+  margin-top: 4rem;
   text-align: center;
   padding: 1rem;
   background-color: #25a2c3;
@@ -150,7 +157,7 @@ footer a {
 footer hr {
   color: white;
   margin-block: 2rem;
-  margin-inline: 5rem;
+  margin-inline: 50rem;
   opacity: 0.9;
 }
 
