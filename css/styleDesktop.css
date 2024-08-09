@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap");
 /* IMPORTO I FONT NECESSARI */
-
+/* {
+ outline: 2px solid red; 
+}  comando per vedere se straborda */
 body {
   font-family: "Open Sans", sans-serif;
   color: #393d41;
@@ -29,9 +31,10 @@ header img {
 
 section {
   text-align: center;
-  padding: 7rem;
+  box-sizing: border-box;
+  padding: 16rem;
   background-image: url(../images/banner.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-position: top;
 }
 
@@ -56,12 +59,11 @@ section button {
 
 section p {
   padding-block: 1.5rem;
+  font-size: 1.5rem;
 }
 /* STILIZZO LA NOSTRA SECTION E I SUOI CONTENUTI */
 
 article {
-  width: 100%;
-  padding-inline: 10rem;
   padding-block: 4rem;
 }
 
@@ -72,20 +74,23 @@ article img {
 .box4,
 .box5 {
   display: inline-block;
+  box-sizing: border-box;
   vertical-align: -webkit-baseline-middle;
-  width: 40%;
+  width: 49%;
   padding: 5rem;
+
+  /* padding: 5rem; */
 }
 
 .box4 {
-  width: 30%;
+  padding: 10rem;
 }
 /* I DUE BLOCCHI NELL'ARTICLE */
 /*IMPOSTO LA SEZIONE "ARTICLE" E RENDO LA FOTO TONDA E DI DIMENSIONI RICHIESTE */
 
 .orangeBlock {
   text-align: center;
-  padding: 2rem 0.85rem 1rem 0.85rem;
+  padding: 5rem;
   background-color: #e22d0e;
   color: white;
   margin-bottom: 2rem;
@@ -93,13 +98,13 @@ article img {
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.7rem;
-  padding-block: 1.5rem;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
   color: white;
 }
 .italic {
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: 1.8rem;
   padding-bottom: 1.5rem;
   padding-inline: 0.8rem;
 }
@@ -113,15 +118,19 @@ aside {
   width: 100%;
   text-align: center;
   box-sizing: border-box;
-  display: inline;
+  padding: 4rem;
 }
 .box1,
 .box2,
 .box3 {
+  box-sizing: border-box;
   display: inline-block;
-  vertical-align: middle;
   width: 31%;
   margin: 10px;
+}
+
+.cards > img {
+  height: 40vh;
 }
 /* I 3 BLOCCHI NELL'ASIDE */
 
@@ -145,6 +154,16 @@ footer {
   text-align: center;
   padding: 1rem;
   background-color: #25a2c3;
+  padding-block: 4rem;
+}
+
+footer div {
+  margin-inline: auto;
+  width: 17%;
+  text-align: start;
+}
+footer h2 {
+  font-size: 3rem;
 }
 
 li,
@@ -157,7 +176,10 @@ footer a {
 footer hr {
   color: white;
   margin-block: 2rem;
-  margin-inline: 50rem;
+  width: 16%;
+  padding-right: 21px;
+
+  /* margin-inline: 55rem; */
   opacity: 0.9;
 }
 
@@ -165,6 +187,5 @@ footer p {
   color: white;
   font-size: 0.9rem;
   opacity: 0.8;
-  padding-bottom: 2.5rem;
 }
 /* STILE DEL FOOTER E CONTENUTI */
